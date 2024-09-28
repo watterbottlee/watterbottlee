@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @watterbottlee
-- 👀 I’m interested in AI/ML
-- 🌱 I’m currently learning AI/ML
+- 👀 I’m interested in Backend Development
+- 🌱 I’m currently learning Java, Spring boot
 - 📫 How to reach me ... kaniskaranjanbarman@gmail.com
 
 <!---
