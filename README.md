@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @watterbottlee
-- 👀 I’m interested in AI/ML,web development
+- 👋 Hi, I’m kanishk
+- 👀 I’m interested in backend development
 - 🌱 I’m currently learning Spring boot
 - 📫 reach me at kaniskaranjanbarman@gmail.com
 <!---
