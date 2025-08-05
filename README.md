@@ -111,46 +111,47 @@ const kanishk = {
 
 ---
 
-## 🐍 Contribution Snake
+## 🕹️ Pac-Man Contribution Calendar
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/watterbottlee/watterbottlee/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/watterbottlee/watterbottlee/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man eating contributions" />
 </div>
 
-*Note: To enable the snake animation, add this GitHub Action to your repository:*
+*Note: To enable the Pac-Man contribution game, add this GitHub Action to your repository:*
 
 <details>
-<summary>Click to see GitHub Action workflow</summary>
+<summary>Click to see GitHub Action workflow for Pac-Man animation</summary>
 
-Create `.github/workflows/snake.yml`:
+Create `.github/workflows/pacman.yml`:
 
 ```yaml
-name: Generate Snake
+name: Generate Pac-Man
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
-        id: snake-gif
+      - uses: actions/checkout@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: watterbottlee
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          svg_out_path_dark: dist/github-contribution-grid-snake-dark.svg
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00d9ff&color_dots=#0d1117,#161b22,#21262d,#30363d,#8cc8ff
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+*The snake will behave like Pac-Man, eating your contribution dots with a custom cyan color scheme!*
 
 </details>
 
@@ -160,14 +161,6 @@ jobs:
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=watterbottlee&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
-</div>
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=watterbottlee&theme=react-dark&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </div>
 
 ---
