@@ -1,14 +1,7 @@
 # 💫 About Me:
 
-
-
-I'm a full-stack developer specialized in react and spring boot. <br>currently pursing B. Tech at Guru Ghasidas Vishwavidyalaya, bilaspur.<br>working as an intern at javapro.academy .<br>
-
-
-
-
-
-
+Software Engineer and Java Trainer @ Coding Cloud Institute, Pune
+Fullstack Developer Ex-Intern @ Java Pro Academy, New York 
 
 
 ## 🌐 Socials:
