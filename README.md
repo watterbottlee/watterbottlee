@@ -1,6 +1,7 @@
 # 💫 About Me:
 
 Software Engineer and Java Trainer @ Coding Cloud Institute, Pune
+<br>
 Fullstack Developer Ex-Intern @ Java Pro Academy, New York 
 
 
