@@ -27,7 +27,7 @@
 public class Kaniska {
 
     String role  = "Software Developer and Devops Engineer";
-    String prev  = "Java Trainer @ "Coding Cloud Institute, Pune";
+    String prev  = "Java Trainer @ Coding Cloud Institute, Pune";
     String internshipExp  = "Fullstack Developer Intern @ Java Pro Academy, New York";
 
     String[] passions = {
